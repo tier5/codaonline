@@ -1,0 +1,131 @@
+/*--
+	Theme Name: Theme1669
+--*/
+
+
+/* Headings */
+h1,h2,h4,h5,h5 a{color:#4a4d4d;}
+h2{ color:#4a4d4d;}
+h3{ color:#fff;}
+h4 a{ color:#4a4d4d;}
+h4 a:hover,.related-posts h4 a:hover{ color:#639870;}
+
+#widget-header .social-networks li,
+.social-networks li,
+li.comment,
+.comments-link,
+.latestwork li,
+.header-title .page-desc,
+#gallery .portfolio li,
+ul.recentcomments li,
+.post_list li,
+.popular-posts li,
+.latestpost li,
+.twitter ul li,
+.banners-holder li,
+.recent-posts li,
+.address dd ul li{color: #747474;}
+
+.top-box {	color:#fff;}
+	.top-box:hover,.top-box:hover h3{ color:#0d0f0f;}
+.box-button a{color:#fff;}
+.top-box:hover .box-button a, .box-button a:hover{color:#000;}
+			.top-box:hover .box-button a:hover{color:#639870;}
+			
+#slider-wrapper{background:#ffffff url(../images/loading.gif) 50% 50% no-repeat;}
+	
+.kwicks li .kwicks-caption,.kwicks li .kwicks-caption a{ color:#fff;}
+		.kwicks li .kwicks-caption a:hover{ color:#639870;}
+		
+.sf-menu li a {color:#898e89;}
+.sf-menu li a:hover, .sf-menu li.sfHover a,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active, .sf-menu li.current-menu-item > a {
+	border-top:3px solid #589397;
+	background:#f9f8f5 url(../images/menu-hover-corner.png) 50% 0 no-repeat;
+	color:#000;
+	border-bottom:1px solid #589397;
+}
+.sf-menu ul {background:#f9f8f5;border-top:1px solid #589397;}
+	.sf-menu li li a,.sf-menu li.sfHover li a,.sf-menu li.current-menu-item li a{ border-top:1px solid #e6e7e3;color:#898e89; }
+		.sf-menu li li a:hover,.sf-menu li li.sfHover a,.sf-menu li li.current-menu-item a{color:#000;}
+		
+.sf-menu ul ul {background:#f9f8f5;border-top:1px solid #589397;}
+	.sf-menu li li li a,.sf-menu li li.sfHover li a,.sf-menu li li.current-menu-item li a{color:#898e89;}
+		.sf-menu li li li a:hover,.sf-menu li li li.current-menu-item a{color:#000;}		
+		
+.comment-author .author{color:#393939;}
+
+.reply a { color:#000;}
+.reply a:hover { color: #639870;}
+  
+.featured-thumbnail,
+.alignleft,
+.alignright,
+.aligncenter,
+.alignnone,
+#post-author .gravatar img,
+.author-info .avatar img,
+.popular-posts li .post-thumb{background:#fff;}
+
+.post-meta time{ 
+		color:#000;
+		background:#fdfdfc;}
+.post-author a:hover{ color:#000;}	
+
+.comments-link:hover{ text-decoration:underline; color:#000;}
+
+.wp-pagenavi a, .wp-pagenavi span {color:#639870;}
+.wp-pagenavi a:hover, .wp-pagenavi span.current {color:#000;}
+.wp-pagenavi .pages {color:#639870;}
+
+.faq_list dt {color:#000;}
+	.faq_list span.marker {color:#639870;}
+	.faq_list dd {color:#747474;}
+
+ul.recentcomments li {border-top:1px solid #c6c6c6;}	
+ul.recentcomments .comment-body a {color: #747474;}
+			ul.recentcomments .comment-body a:hover {color:#639870;}
+			ul.recentcomments li h4 a:hover {color:#000;}
+		ul.recentcomments li small {color:#6a6a6a;}
+
+.post_list li {background:#f8f8f7;}
+
+.post-title{color:#639870;}
+.post_list li .post-cycle-link{color:#000;}
+	.post_list li .post-cycle-link:hover{color:#639870;}
+	
+.testimonials div.testi_item time,
+.latestpost li time{color:#639870;}
+	.latestpost li h4 a:hover{ color:#639870;}
+	
+article.testimonial .name-testi,
+.testi-single .name-testi .user{color:#222c36;}
+
+.recent-posts li h4 a:hover{ color:#639870}
+
+.tags-cloud a,
+.tagcloud a,
+.post-footer a {background:#f9f9f8;color:#000;}
+.tags-cloud a:hover,
+.tagcloud a:hover,
+.post-footer a:hover {background:#2c2c2b;color:#fff;}
+	
+#footer,#footer a {color:#676b6b;}
+	#footer a:hover{color:#639870;}
+	
+.button {
+	background:#f9f9f8 url(../images/btn-arrow2.png) 90% 50% no-repeat;
+	color:#000;}
+	.button:hover {
+		background:#2c2c2b url(../images/btn-arrow.png) 90% 50% no-repeat;
+		color:#fff;}
+.button-dark {
+	background:#2c2c2b url(../images/btn-arrow.png) 90% 50% no-repeat;
+	color:#fff;}
+	.button-dark:hover {
+		background:#f9f9f8 url(../images/btn-arrow2.png) 90% 50% no-repeat;
+		color:#000;}
+		
+.year{color:#4a4d4d;}
+
+.address dd a {color:#191919;}

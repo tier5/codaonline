@@ -1,0 +1,18 @@
+{
+  "name": "cmosguy/codaonline.org",
+  "description": "CODA website packages",
+  "require": {
+    "symfony/var-dumper": "^3.1"
+  },
+  "authors": [
+    {
+      "name": "Adam Klein",
+      "email": "me@adamklein.io"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Coda\\": "src/"
+    }
+  }
+}

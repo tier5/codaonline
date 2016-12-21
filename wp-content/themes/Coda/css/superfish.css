@@ -1,0 +1,172 @@
+.sf-menu ul {
+
+	position:		absolute;
+
+	width:			165px; /* left offset of submenus need to match (see below) */
+
+	background: #ff7e00;
+
+	border-top:1px solid #ff8d00;
+
+	padding: 11px 0px 11px 0px;
+
+	z-index:200;
+
+}
+
+
+
+.sf-menu ul li {
+
+	width:			100%;
+
+	background:none;
+
+	width:			164px;
+
+	border-left:1px solid #ff8100;
+
+	position:relative;
+
+	padding:0;
+
+}
+
+.sf-menu ul li:hover, .sf-menu ul li.sfHover  {
+
+	background:#fcfcfc;
+
+	border-left:1px solid #fff;
+
+}
+
+
+
+.sf-menu li {
+
+	position:		relative;
+
+}
+
+.sf-menu li:hover ul,
+
+.sf-menu li.sfHover ul {
+
+	left:			0px;
+
+	top:			61px; /* match top ul list item height */
+
+	z-index:		99;
+
+}
+
+ul.sf-menu li:hover li ul,
+
+ul.sf-menu li.sfHover li ul {
+
+	width:165px;
+
+	background: #ff7e00;
+
+	border-top:1px solid #ff8d00;
+
+	padding: 11px 0px 15px 0px;
+
+}
+
+ul.sf-menu li li:hover ul,
+
+ul.sf-menu li li.sfHover ul {
+
+	position:		absolute;
+
+	left:			165px; /* match ul width */
+
+	top:			-12px;
+
+}
+
+
+
+
+
+.sf-menu li:hover li a, 
+
+.sf-menu li.sfHover li a, .sf-menu li.active li a {
+
+	display:block;
+
+	border: none;
+
+	color:#fdfdfd;
+
+	font-size:12px;
+
+	line-height:1.2em;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	background:none;
+
+	padding:5px 0 5px 19px !important;
+
+	text-align:left;
+
+	margin-top:0 !important;
+
+
+
+}
+
+.sf-menu li li:hover a, .sf-menu li li.sfHover a, .sf-menu li li.active a  {display:block; color:#ff7e00; 
+
+	line-height:1.2em;
+
+	padding:5px 0 5px 19px !important;
+
+	margin-top:0 !important;}
+
+.sf-menu li li li {
+
+	background:none;
+
+	text-align:left;
+
+	border-left:1px solid #ff8100;
+
+	border-top:1px solid #ff8100;
+
+}
+
+.sf-menu li li li:hover {
+
+	background:#ffab00;
+
+	border-left:1px solid #ffb000;
+
+	border-top:1px solid #ffa900;
+
+}
+
+.sf-menu li li.sfHover li a {color:#fff; margin-top:0 !important; line-height:1.2em;
+
+	padding:4px 0 5px 19px !important;}
+
+.sf-menu li li.sfHover li a:hover {color:#fff; 
+
+	line-height:1.2em;
+
+	padding:4px 0 5px 19px !important;
+
+	margin-top:0 !important;}
+
+.sf-menu li:hover, .sf-menu li.sfHover,
+
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+
+	outline:		0;
+
+}
+
+
+
